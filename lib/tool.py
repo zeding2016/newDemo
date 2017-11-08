@@ -7,7 +7,6 @@ import time
 from pathlib import Path
 from pathlib import PurePath
 import shutil
-import logzero
 from logging.handlers import SysLogHandler
 from logzero import logger, setup_logger
 import logging
