@@ -109,8 +109,6 @@ class myResultForEmail( object ):
         :return:
         '''
         _table = u'''
-
-
         <table width="100%" border="1" cellspacing="0" class="report" style="border-collapse: collapse;text-align: center;">
         <tr class="testHeader">
 				<th width="60%">测试moudle/测试case</th>
@@ -212,7 +210,7 @@ class myResultForEmail( object ):
         _data = {}
         # _result = {} #{'testMoudle'：[total,pass,fail,wrong]} 全部结果的显示 为int型
         # _totalReport =[]
-        _one = None
+       
         try:
             if self._cases:
                 for i in self._cases:
