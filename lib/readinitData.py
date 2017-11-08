@@ -6,6 +6,8 @@ import configparser
 from pathlib import Path
 
 
+#读取配置文件相关
+
 
 def getConfData(api, data):
     '''
@@ -16,8 +18,6 @@ def getConfData(api, data):
     '''
 
     # ConfigParser都会转换为小写的问题，要进行处理
-    # 初始化时候要设置s的变量，s为你目录文件夹名称
-    
     _con = configparser.ConfigParser()
     _path = Path.cwd().parent.joinpath('data').joinpath("conf.ini")
 
