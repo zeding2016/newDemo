@@ -17,12 +17,7 @@ from pathlib import Path
 
 #读取配置文
 def getConfData(api, data):
-    '''
-    读取配置文件
-    :param api:
-    :param data:
-    :return:返回的是列表，0为指定的元素，第二个为该api下的所有元素选项
-    '''
+    '''读取配置文件'''
 
     # ConfigParser都会转换为小写的问题，要进行处理
     _con = configparser.ConfigParser()
@@ -36,6 +31,8 @@ def getConfData(api, data):
         return False
 
 
+
+
 def singleton(cls):
     '''单例装饰器'''
     instances = {}
@@ -46,6 +43,7 @@ def singleton(cls):
             instances[cls] = cls( *args, **kw )
         return instances[cls]
     return getinstance
+
 
 
 class myLog( object ):
@@ -78,6 +76,7 @@ forTime = myLog( "-time-",nameForLog="time" )
 
 
 
+
 # 计时装饰器
 def describeTime(func):
     def inner(*args, **kwargs):
@@ -89,6 +88,7 @@ def describeTime(func):
     return inner
 
 
+
 #生成mac地址
 def getMac() :
     # 生成A0:18:28:83:C8:0B
@@ -98,6 +98,7 @@ def getMac() :
         Maclist.append(RANDSTR)
     RANDMAC = ":".join(Maclist).upper()
     return RANDMAC
+
 
 
 def md5_str(content, encoding='utf-8'):
