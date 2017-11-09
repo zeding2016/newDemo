@@ -9,8 +9,6 @@ from openpyxl.reader.excel import load_workbook
 from pathlib import Path
 import xlrd
 import xlwt
-import shutil
-import xlutils
 from lib.tool import *
 import json
 import asyncio
@@ -37,6 +35,7 @@ class dataDrivenAutoTest( object ):
         self.__wb = None  # 文档
         self.__sheets = None  # 文档对应的所有的表
         self.__localHost = getConfData().get( 'testEnvironment', 'localhost' )
+        self.pathForRes = Path.cwd().parent.joinpath( 'report' ).joinpath( 'result.xls' )
         self.__setUp()
     
     def __del__(self):
@@ -59,6 +58,8 @@ class dataDrivenAutoTest( object ):
         ''''''
         _path = Path.cwd().parent.joinpath( 'data' ).joinpath( dataName )
         self.__wb = xlrd.open_workbook( filename=str( _path ) )
+        self._forResult = xlwt.Workbook()  # 新建一个excel文件
+        self.report = self._forResult.add_sheet( 'Sheet1', cell_overwrite_ok=True )
         self.__sheets = self.__wb.sheet_names()  # all sheets
     
     def __getFileOfApi(self):
@@ -140,11 +141,17 @@ class dataDrivenAutoTest( object ):
             details = traceback.format_exc()
             status = 'error'
         
+        self.report.write( index, 0, __allData['_moudle'] )
+        self.report.write( index, 1, __allData['_url'] )
+        self.report.write( index, 2, __allData['_method'] )
+        self.report.write( index, 3, __allData['_data'] )
+        self.report.write( index, 4, __allData['_expectedResult'] )
+        self.report.write( index, 5, __allData['_des'] )
+        self.report.write( index, 6, status )
+        self.report.write( index, 7, details )
         print( status, details, )
     
     # 请求requests的方法
-    
-    
     async def __callApi(self, method, data, url, headers=None, **kwargs):
         if method not in ('post', 'get'):
             return False
@@ -164,9 +171,8 @@ class dataDrivenAutoTest( object ):
                 r = str( e )
         
         return r, kwargs
-        
-        # 主函数入口，多进程+协程
     
+    # 主函数入口，多进程+协程
     def mainTwo(self):
         pass
         
@@ -175,28 +181,34 @@ class dataDrivenAutoTest( object ):
     def main(self):
         self.__setExcel( 'case.xlsx' )
         worksheet = self.__getWorksheet( 0 )
-        _cols = worksheet.ncols
         _rows = worksheet.nrows
         self.__cases = _rows
         _tasks = []
         for i in range( _rows ):
             if i == 0:
-                pass
                 # moudle, url, method, data, expectedResult, des, status, detail = worksheet.row_values( i, )
-                # 重新代开一个excel，写出这几个标题
-                # ,这里后续需要补写
-                #########################
+                a = worksheet.row_values( i, )
+                for j in range( len( a ) ):
+                    self.report.write( i, j, a[j] )
+                    # 重新代开一个excel，写出这几个标题
+                    # ,这里后续需要补写
+                    #########################
             else:
                 # 顺序如下：moudle,url,method,data,expectedResult,des
                 _tmp = worksheet.row_values( i, )
                 # 这里要对所传的data转换成json格式的必须要求是双引号
                 r = self.__callApi( method=_tmp[2], url=self.__setUrl( _tmp[1] ), data=json.loads( _tmp[3] ),
-                                    _expectedResult=_tmp[4], _des=_tmp[5], _moudle=_tmp[0], index=i )
+                                    _expectedResult=_tmp[4], _des=_tmp[5], _moudle=_tmp[0], index=i, _data=_tmp[3],
+                                    _method=_tmp[2], _url=_tmp[1] )
                 _tasks.append( asyncio.ensure_future( r ) )
         for t in _tasks:
             t.add_done_callback( self.callback )
         loop = asyncio.get_event_loop()
         loop.run_until_complete( asyncio.wait( _tasks ) )
+        
+        self._forResult.save( str( self.pathForRes ) )
+
+
 
 
 a = dataDrivenAutoTest()
