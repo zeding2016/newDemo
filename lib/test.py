@@ -13,7 +13,8 @@ async def work1(x):
 
 
 def callback(x):
-    print( "我是回调函数:{}".format( str( x ) ) )
+    print( "我是回调函数:{}")
+    print(x.result())
 
 
 
@@ -66,18 +67,21 @@ def callback(x):
 #--------------------------------------------
 
 # demo4 增加回调函数
-#
-# tasks=[
-#     asyncio.ensure_future(work1(1)),
-#     asyncio.ensure_future( work1( 12) ),
-#     asyncio.ensure_future( work1( 5 ) ),
-#     asyncio.ensure_future( work1( 10) )
-#
-# ]
-# for i in tasks:
-#    i.add_done_callback( callback )
-# loop = asyncio.get_event_loop()
-# loop.run_until_complete(asyncio.wait(tasks))
+
+tasks=[
+    asyncio.ensure_future(work1(1)),
+    asyncio.ensure_future( work1( 12) ),
+    asyncio.ensure_future( work1( 5 ) ),
+    asyncio.ensure_future( work1( 10) )
+
+]
+
+for i in tasks:
+   i.add_done_callback( callback )
+loop = asyncio.get_event_loop()
+loop.run_until_complete(asyncio.wait(tasks))
+
+
 
 #--------------------------------------------
 #--------------------------------------------
@@ -309,42 +313,42 @@ def callback(x):
 #--------------------------------------------
 #--------------------------------------------
 #demo13 新线程协程
-from threading import Thread
-
-def mian_loop(loop):
-    asyncio.set_event_loop(loop)
-    loop.run_forever()
-  
-  
-    
-async def work(x):
-    print("work 开始等待{}".format(x))
-    await asyncio.sleep(x)
-    print("work 结束{}".format(x))
-
-
-
-
-def otherWork(x):
-    print( "otherWork 开始等待{}".format( x ) )
-    time.sleep( x )
-    print( "otherWork 结束{}".format( x ) )
-
-s = time.time()
-
-new_loop = asyncio.new_event_loop()
-t = Thread(target=mian_loop,args=(new_loop,))
-t.start()
-n =0
-
-
-
-
-while True:
-    time.sleep(10)
-    n +=1
-    asyncio.run_coroutine_threadsafe(work(2),new_loop)
-    asyncio.run_coroutine_threadsafe( work( 6 ), new_loop )
-   
-
-
+# from threading import Thread
+#
+# def mian_loop(loop):
+#     asyncio.set_event_loop(loop)
+#     loop.run_forever()
+#
+#
+#
+# async def work(x):
+#     print("work 开始等待{}".format(x))
+#     await asyncio.sleep(x)
+#     print("work 结束{}".format(x))
+#
+#
+#
+#
+# def otherWork(x):
+#     print( "otherWork 开始等待{}".format( x ) )
+#     time.sleep( x )
+#     print( "otherWork 结束{}".format( x ) )
+#
+# s = time.time()
+#
+# new_loop = asyncio.new_event_loop()
+# t = Thread(target=mian_loop,args=(new_loop,))
+# t.start()
+# n =0
+#
+#
+#
+#
+# while True:
+#     time.sleep(10)
+#     n +=1
+#     asyncio.run_coroutine_threadsafe(work(2),new_loop)
+#     asyncio.run_coroutine_threadsafe( work( 6 ), new_loop )
+#
+#
+#

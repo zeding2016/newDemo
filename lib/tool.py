@@ -2,7 +2,6 @@
 __author__ = 'zeding'
 __mtime__ = '2017/11/7'
 
-
 import time
 from logzero import logger, setup_logger
 import logging
@@ -12,23 +11,22 @@ from functools import wraps
 import hashlib
 import configparser
 from pathlib import Path
-
-
+import asyncio
 
 #读取配置文
-def getConfData(api, data):
+def getConfData():
     '''读取配置文件'''
-
+    #一次性的全部加载进来，只进行一次一次读取，然后直接调用
     # ConfigParser都会转换为小写的问题，要进行处理
     _con = configparser.ConfigParser()
     _path = Path.cwd().parent.joinpath('data').joinpath("conf.ini")
-
-    print(_path)
     try:
+        
         _con.read(_path)
-        return _con.get(api,data.lower())
+        return _con
     except Exception :
         return False
+
 
 
 
@@ -43,6 +41,7 @@ def singleton(cls):
             instances[cls] = cls( *args, **kw )
         return instances[cls]
     return getinstance
+
 
 
 
@@ -75,8 +74,6 @@ class myLog( object ):
 forTime = myLog( "-time-",nameForLog="time" )
 
 
-
-
 # 计时装饰器
 def describeTime(func):
     def inner(*args, **kwargs):
@@ -86,7 +83,6 @@ def describeTime(func):
         forTime.info("耗时："+totalTime)
         return a
     return inner
-
 
 
 #生成mac地址
@@ -101,6 +97,7 @@ def getMac() :
 
 
 
+
 def md5_str(content, encoding='utf-8'):
     """计算字符串的MD5值
 
@@ -110,4 +107,7 @@ def md5_str(content, encoding='utf-8'):
     """
     m = hashlib.md5(content.encode(encoding))
     return m.hexdigest()
+
+
+
 

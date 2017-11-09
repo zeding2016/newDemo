@@ -1,0 +1,24 @@
+[I 171108 16:01:08 tool:64] posthttps://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
+[I 171108 16:22:35 tool:66] posthttps://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/login/registerOrLogin
+[I 171108 16:22:44 tool:66] posthttps://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/login/registerOrLogin
+[I 171108 17:23:08 tool:64] posthttps://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
+[I 171108 17:23:18 tool:64] posthttps://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
+[I 171108 17:26:01 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
+[I 171108 17:26:35 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
+[I 171108 17:27:20 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
+[I 171108 17:27:30 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
+[I 171108 17:27:41 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
+[I 171108 17:29:07 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
+[I 171108 17:32:17 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
+[I 171108 17:32:23 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
+[I 171108 17:34:16 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
+[I 171108 17:34:24 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
+[I 171108 17:35:00 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/login/registerOrLogin
+[I 171108 17:35:14 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/login/registerOrLogin
+[I 171108 17:35:42 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/login/registerOrLogin
+[I 171108 17:37:09 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/login/registerOrLogin
+[I 171108 17:42:26 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/login/registerOrLogin
+[I 171108 17:45:59 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/login/registerOrLogin
+[I 171108 17:46:55 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/login/registerOrLogin
+[I 171108 17:58:23 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/login/registerOrLogin
+[I 171108 18:04:41 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/login/registerOrLogin
