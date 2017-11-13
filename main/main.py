@@ -60,6 +60,7 @@ class myLog( object ):
         self.__logger.critical( message )
 
 
+
 class dataDrivenAutoTest( object ):
     '''数据驱动自动化测试
    
