@@ -98,6 +98,7 @@ def getMac() :
 
 
 
+
 def md5_str(content, encoding='utf-8'):
     """计算字符串的MD5值
 

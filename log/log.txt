@@ -1,24 +1,877 @@
-[I 171108 16:01:08 tool:64] posthttps://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
-[I 171108 16:22:35 tool:66] posthttps://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/login/registerOrLogin
-[I 171108 16:22:44 tool:66] posthttps://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/login/registerOrLogin
-[I 171108 17:23:08 tool:64] posthttps://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
-[I 171108 17:23:18 tool:64] posthttps://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
-[I 171108 17:26:01 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
-[I 171108 17:26:35 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
-[I 171108 17:27:20 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
-[I 171108 17:27:30 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
-[I 171108 17:27:41 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
-[I 171108 17:29:07 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
-[I 171108 17:32:17 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
-[I 171108 17:32:23 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
-[I 171108 17:34:16 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
-[I 171108 17:34:24 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/uc/userIdea
-[I 171108 17:35:00 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/login/registerOrLogin
-[I 171108 17:35:14 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/login/registerOrLogin
-[I 171108 17:35:42 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/login/registerOrLogin
-[I 171108 17:37:09 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/login/registerOrLogin
-[I 171108 17:42:26 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/login/registerOrLogin
-[I 171108 17:45:59 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/login/registerOrLogin
-[I 171108 17:46:55 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/login/registerOrLogin
-[I 171108 17:58:23 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/login/registerOrLogin
-[I 171108 18:04:41 tool:64] post https://test-mifi-web-stg1.pingan.com.cn/mifi-uc/rest/login/registerOrLogin
+[W 171110 10:33:21 main:52] ************************************************************
+[I 171110 10:33:21 main:49] data for testting is on....
+[I 171110 10:33:21 main:49] start run testCase.....
+[I 171110 10:33:25 main:49] running testCase.....SUCCESS!!!!!!
+[W 171110 10:33:49 main:52] ************************************************************
+[I 171110 10:33:49 main:49] data for testting is on....
+[I 171110 10:33:49 main:49] start run testCase.....
+[I 171110 10:33:53 main:49] running testCase.....SUCCESS!!!!!!
+[W 171110 10:35:16 main:53] ************************************************************
+[I 171110 10:35:16 main:50] data for testting is on....
+[I 171110 10:35:16 main:50] start run testCase.....
+[I 171110 10:35:20 main:50] running testCase.....SUCCESS!!!!!!
+[W 171110 10:36:08 main:53] ************************************************************
+[I 171110 10:36:08 main:50] data for testting is on....
+[I 171110 10:36:08 main:50] start run testCase.....
+[W 171110 10:36:08 main:53] running num:1case，[100.0%]fail  201!=200
+[E 171110 10:36:08 main:56] running num:1case，[100.0%]error  Traceback (most recent call last):
+      File "main.py", line 201, in callback
+        if _res[tmp[0]] == tmp[1]:
+    KeyError: 'mo'
+    
+[I 171110 10:36:12 main:50] running testCase.....SUCCESS!!!!!!
+[D 171110 10:39:46 main:47] ************************************************************
+[I 171110 10:39:46 main:50] data for testting is on....
+[I 171110 10:39:46 main:50] start run testCase.....
+[W 171110 10:39:49 main:53] running num:1case，[100.0%]fail  201!=200
+[E 171110 10:39:49 main:56] running num:1case，[100.0%]error  Traceback (most recent call last):
+      File "main.py", line 201, in callback
+        if _res[tmp[0]] == tmp[1]:
+    KeyError: 'mo'
+    
+[I 171110 10:39:53 main:50] running testCase.....SUCCESS!!!!!!
+[D 171110 10:53:00 main:47] ************************************************************
+[I 171110 10:53:00 main:50] data for testting is on....
+[I 171110 10:53:00 main:50] start run testCase.....
+[I 171110 10:53:05 main:50] running testCase.....SUCCESS!!!!!!
+[D 171110 10:54:42 main:47] ************************************************************
+[I 171110 10:54:42 main:50] data for testting is on....
+[I 171110 10:54:42 main:50] start run testCase.....
+[I 171110 10:54:46 main:50] running testCase.....SUCCESS!!!!!!
+[D 171110 10:57:32 main:47] ************************************************************
+[I 171110 10:57:32 main:50] data for testting is on....
+[I 171110 10:57:32 main:50] start run testCase.....
+[I 171110 10:57:37 main:50] running testCase.....SUCCESS!!!!!!
+[D 171110 10:58:09 main:47] ************************************************************
+[I 171110 10:58:09 main:50] data for testting is on....
+[I 171110 10:58:09 main:50] start run testCase.....
+[I 171110 10:58:13 main:50] running testCase.....SUCCESS!!!!!!
+[D 171110 11:06:01 main:47] ************************************************************
+[I 171110 11:06:01 main:50] data for testting is on....
+[I 171110 11:06:01 main:50] start run testCase.....
+[I 171110 11:06:05 main:50] running testCase.....SUCCESS!!!!!!
+[D 171110 11:14:03 main:47] ************************************************************
+[I 171110 11:14:03 main:50] data for testting is on....
+[I 171110 11:14:03 main:50] start run testCase.....
+[I 171110 11:14:07 main:50] running testCase.....SUCCESS!!!!!!
+[D 171110 11:16:02 main:46] ************************************************************
+[I 171110 11:16:02 main:49] data for testting is on....
+[I 171110 11:16:02 main:49] start run testCase.....
+[I 171110 11:16:07 main:49] running testCase.....SUCCESS!!!!!!
+[D 171110 11:18:08 main:46] ************************************************************
+[I 171110 11:18:08 main:49] data for testting is on....
+[I 171110 11:18:08 main:49] start run testCase.....
+[I 171110 11:18:12 main:49] running testCase.....SUCCESS!!!!!!
+[D 171110 11:18:41 main:46] ************************************************************
+[I 171110 11:18:41 main:49] data for testting is on....
+[I 171110 11:18:41 main:49] start run testCase.....
+[I 171110 11:18:45 main:49] running testCase.....SUCCESS!!!!!!
+[D 171110 11:19:01 main:46] ************************************************************
+[I 171110 11:19:01 main:49] data for testting is on....
+[I 171110 11:19:01 main:49] start run testCase.....
+[I 171110 11:19:05 main:49] running testCase.....SUCCESS!!!!!!
+[D 171110 11:35:32 main:46] ************************************************************
+[I 171110 11:35:32 main:49] data for testting is on....
+[I 171110 11:35:32 main:49] start run testCase.....
+[I 171110 11:35:36 main:49] running testCase.....SUCCESS!!!!!!
+[D 171110 11:36:57 main:46] ************************************************************
+[I 171110 11:36:57 main:49] data for testting is on....
+[I 171110 11:36:57 main:49] start run testCase.....
+[I 171110 11:37:01 main:49] running testCase.....SUCCESS!!!!!!
+[D 171110 11:46:46 main:46] ************************************************************
+[I 171110 11:46:46 main:49] data for testting is on....
+[I 171110 11:46:46 main:49] start run testCase.....
+[I 171110 11:46:50 main:49] running testCase.....SUCCESS!!!!!!
+[D 171110 11:47:41 main:46] ************************************************************
+[I 171110 11:47:41 main:49] data for testting is on....
+[I 171110 11:47:41 main:49] start run testCase.....
+[I 171110 11:47:45 main:49] running testCase.....SUCCESS!!!!!!
+[D 171110 11:48:57 main:46] ************************************************************
+[I 171110 11:48:57 main:49] data for testting is on....
+[I 171110 11:48:57 main:49] start run testCase.....
+[I 171110 11:49:01 main:49] running testCase.....SUCCESS!!!!!!
+[D 171110 11:58:26 main:46] ************************************************************
+[I 171110 11:58:26 main:49] data for testting is on....
+[I 171110 11:58:26 main:49] start run testCase.....
+[I 171110 11:58:31 main:49] running num:1case，[1.5873015873015872%]pass  
+[I 171110 11:58:31 main:49] running num:2case，[3.1746031746031744%]pass  
+[I 171110 11:58:31 main:49] running num:3case，[4.761904761904762%]pass  
+[I 171110 11:58:31 main:49] running num:4case，[6.349206349206349%]pass  
+[I 171110 11:58:31 main:49] running num:5case，[7.936507936507936%]pass  
+[I 171110 11:58:31 main:49] running num:6case，[9.523809523809524%]pass  
+[I 171110 11:58:31 main:49] running num:7case，[11.11111111111111%]pass  
+[I 171110 11:58:31 main:49] running num:8case，[12.698412698412698%]pass  
+[I 171110 11:58:31 main:49] running num:9case，[14.285714285714285%]pass  
+[I 171110 11:58:31 main:49] running num:10case，[15.873015873015872%]pass  
+[I 171110 11:58:31 main:49] running num:11case，[17.46031746031746%]pass  
+[I 171110 11:58:31 main:49] running num:12case，[19.047619047619047%]pass  
+[I 171110 11:58:31 main:49] running num:13case，[20.634920634920633%]pass  
+[I 171110 11:58:31 main:49] running num:14case，[22.22222222222222%]pass  
+[I 171110 11:58:31 main:49] running num:15case，[23.809523809523807%]pass  
+[I 171110 11:58:31 main:49] running num:16case，[25.396825396825395%]pass  
+[I 171110 11:58:31 main:49] running num:17case，[26.984126984126984%]pass  
+[I 171110 11:58:31 main:49] running num:18case，[28.57142857142857%]pass  
+[I 171110 11:58:31 main:49] running num:19case，[30.158730158730158%]pass  
+[I 171110 11:58:31 main:49] running num:20case，[31.746031746031743%]pass  
+[I 171110 11:58:31 main:49] running num:21case，[33.33333333333333%]pass  
+[I 171110 11:58:31 main:49] running num:22case，[34.92063492063492%]pass  
+[I 171110 11:58:31 main:49] running num:23case，[36.507936507936506%]pass  
+[I 171110 11:58:31 main:49] running num:24case，[38.095238095238095%]pass  
+[I 171110 11:58:31 main:49] running num:25case，[39.682539682539684%]pass  
+[I 171110 11:58:31 main:49] running num:26case，[41.269841269841265%]pass  
+[I 171110 11:58:31 main:49] running num:27case，[42.857142857142854%]pass  
+[I 171110 11:58:31 main:49] running num:29case，[46.03174603174603%]pass  
+[I 171110 11:58:31 main:49] running num:30case，[47.61904761904761%]pass  
+[I 171110 11:58:31 main:49] running num:31case，[49.2063492063492%]pass  
+[I 171110 11:58:31 main:49] running num:32case，[50.79365079365079%]pass  
+[W 171110 11:58:31 main:52] running num:33case，[52.38095238095239%]fail  201!=200
+[I 171110 11:58:31 main:49] running num:34case，[53.96825396825397%]pass  
+[I 171110 11:58:31 main:49] running num:35case，[55.55555555555556%]pass  
+[I 171110 11:58:31 main:49] running num:36case，[57.14285714285714%]pass  
+[I 171110 11:58:31 main:49] running num:37case，[58.730158730158735%]pass  
+[I 171110 11:58:31 main:49] running num:38case，[60.317460317460316%]pass  
+[I 171110 11:58:31 main:49] running num:39case，[61.904761904761905%]pass  
+[I 171110 11:58:31 main:49] running num:40case，[63.49206349206349%]pass  
+[I 171110 11:58:31 main:49] running num:41case，[65.07936507936508%]pass  
+[I 171110 11:58:31 main:49] running num:42case，[66.66666666666666%]pass  
+[I 171110 11:58:31 main:49] running num:43case，[68.25396825396825%]pass  
+[I 171110 11:58:31 main:49] running num:44case，[69.84126984126983%]pass  
+[I 171110 11:58:31 main:49] running num:45case，[71.42857142857143%]pass  
+[I 171110 11:58:31 main:49] running num:46case，[73.01587301587301%]pass  
+[I 171110 11:58:31 main:49] running num:47case，[74.60317460317461%]pass  
+[I 171110 11:58:31 main:49] running num:48case，[76.19047619047619%]pass  
+[I 171110 11:58:31 main:49] running num:49case，[77.77777777777779%]pass  
+[I 171110 11:58:31 main:49] running num:50case，[79.36507936507937%]pass  
+[I 171110 11:58:31 main:49] running num:51case，[80.95238095238095%]pass  
+[I 171110 11:58:31 main:49] running num:52case，[82.53968253968253%]pass  
+[I 171110 11:58:31 main:49] running num:53case，[84.12698412698413%]pass  
+[I 171110 11:58:31 main:49] running num:54case，[85.71428571428571%]pass  
+[I 171110 11:58:31 main:49] running num:55case，[87.3015873015873%]pass  
+[I 171110 11:58:31 main:49] running num:56case，[88.88888888888889%]pass  
+[W 171110 11:58:31 main:52] running num:58case，[92.06349206349206%]fail  200!=257
+[W 171110 11:58:31 main:52] running num:59case，[93.65079365079364%]fail  200!=258
+[W 171110 11:58:31 main:52] running num:60case，[95.23809523809523%]fail  200!=259
+[W 171110 11:58:31 main:52] running num:61case，[96.82539682539682%]fail  200!=260
+[I 171110 11:58:31 main:49] running num:62case，[98.4126984126984%]pass  
+[E 171110 11:58:31 main:55] running num:62case，[98.4126984126984%]error  Traceback (most recent call last):
+      File "main.py", line 195, in callback
+        if _res[tmp[0]] == tmp[1]:
+    KeyError: 'mo'
+    
+[I 171110 11:58:31 main:49] running num:63case，[100.0%]pass  
+[E 171110 11:58:31 main:55] running num:63case，[100.0%]error  Traceback (most recent call last):
+      File "main.py", line 195, in callback
+        if _res[tmp[0]] == tmp[1]:
+    KeyError: 'mo'
+    
+[I 171110 11:58:36 main:49] running testCase.....SUCCESS!!!!!!
+[D 171110 11:59:57 main:46] ************************************************************
+[I 171110 11:59:57 main:49] data for testting is on....
+[I 171110 11:59:57 main:49] start run testCase.....
+[I 171110 12:00:01 main:49] running testCase.....SUCCESS!!!!!!
+[D 171110 12:00:44 main:46] ************************************************************
+[I 171110 12:00:44 main:49] data for testting is on....
+[I 171110 12:00:44 main:49] start run testCase.....
+[I 171110 12:00:49 main:49] running num:01 case，[1.587%]pass  
+[I 171110 12:00:49 main:49] running num:02 case，[3.174%]pass  
+[I 171110 12:00:49 main:49] running num:03 case，[4.761%]pass  
+[I 171110 12:00:49 main:49] running num:04 case，[6.349%]pass  
+[I 171110 12:00:49 main:49] running num:05 case，[7.936%]pass  
+[I 171110 12:00:49 main:49] running num:06 case，[9.523%]pass  
+[I 171110 12:00:49 main:49] running num:07 case，[11.11%]pass  
+[I 171110 12:00:49 main:49] running num:08 case，[12.69%]pass  
+[I 171110 12:00:49 main:49] running num:09 case，[14.28%]pass  
+[I 171110 12:00:49 main:49] running num:010 case，[15.87%]pass  
+[I 171110 12:00:49 main:49] running num:011 case，[17.46%]pass  
+[I 171110 12:00:49 main:49] running num:012 case，[19.04%]pass  
+[I 171110 12:00:49 main:49] running num:013 case，[20.63%]pass  
+[I 171110 12:00:49 main:49] running num:014 case，[22.22%]pass  
+[I 171110 12:00:49 main:49] running num:015 case，[23.80%]pass  
+[I 171110 12:00:49 main:49] running num:016 case，[25.39%]pass  
+[I 171110 12:00:49 main:49] running num:017 case，[26.98%]pass  
+[I 171110 12:00:49 main:49] running num:018 case，[28.57%]pass  
+[I 171110 12:00:49 main:49] running num:019 case，[30.15%]pass  
+[I 171110 12:00:49 main:49] running num:020 case，[31.74%]pass  
+[I 171110 12:00:49 main:49] running num:021 case，[33.33%]pass  
+[I 171110 12:00:49 main:49] running num:022 case，[34.92%]pass  
+[I 171110 12:00:49 main:49] running num:023 case，[36.50%]pass  
+[I 171110 12:00:49 main:49] running num:024 case，[38.09%]pass  
+[I 171110 12:00:49 main:49] running num:025 case，[39.68%]pass  
+[I 171110 12:00:49 main:49] running num:026 case，[41.26%]pass  
+[I 171110 12:00:49 main:49] running num:027 case，[42.85%]pass  
+[I 171110 12:00:49 main:49] running num:029 case，[46.03%]pass  
+[I 171110 12:00:49 main:49] running num:030 case，[47.61%]pass  
+[I 171110 12:00:49 main:49] running num:031 case，[49.20%]pass  
+[I 171110 12:00:49 main:49] running num:032 case，[50.79%]pass  
+[W 171110 12:00:49 main:52] running num:033 case，[52.38%]fail  201!=200
+[I 171110 12:00:49 main:49] running num:034 case，[53.96%]pass  
+[I 171110 12:00:49 main:49] running num:035 case，[55.55%]pass  
+[I 171110 12:00:49 main:49] running num:036 case，[57.14%]pass  
+[I 171110 12:00:49 main:49] running num:037 case，[58.73%]pass  
+[I 171110 12:00:49 main:49] running num:038 case，[60.31%]pass  
+[I 171110 12:00:49 main:49] running num:039 case，[61.90%]pass  
+[I 171110 12:00:49 main:49] running num:040 case，[63.49%]pass  
+[I 171110 12:00:49 main:49] running num:041 case，[65.07%]pass  
+[I 171110 12:00:49 main:49] running num:042 case，[66.66%]pass  
+[I 171110 12:00:49 main:49] running num:043 case，[68.25%]pass  
+[I 171110 12:00:49 main:49] running num:044 case，[69.84%]pass  
+[I 171110 12:00:49 main:49] running num:045 case，[71.42%]pass  
+[I 171110 12:00:49 main:49] running num:046 case，[73.01%]pass  
+[I 171110 12:00:49 main:49] running num:047 case，[74.60%]pass  
+[I 171110 12:00:49 main:49] running num:048 case，[76.19%]pass  
+[I 171110 12:00:49 main:49] running num:049 case，[77.77%]pass  
+[I 171110 12:00:49 main:49] running num:050 case，[79.36%]pass  
+[I 171110 12:00:49 main:49] running num:051 case，[80.95%]pass  
+[I 171110 12:00:49 main:49] running num:052 case，[82.53%]pass  
+[I 171110 12:00:49 main:49] running num:053 case，[84.12%]pass  
+[I 171110 12:00:49 main:49] running num:054 case，[85.71%]pass  
+[I 171110 12:00:49 main:49] running num:055 case，[87.30%]pass  
+[I 171110 12:00:49 main:49] running num:056 case，[88.88%]pass  
+[W 171110 12:00:49 main:52] running num:058 case，[92.06%]fail  200!=257
+[W 171110 12:00:49 main:52] running num:059 case，[93.65%]fail  200!=258
+[W 171110 12:00:49 main:52] running num:060 case，[95.23%]fail  200!=259
+[W 171110 12:00:49 main:52] running num:061 case，[96.82%]fail  200!=260
+[I 171110 12:00:49 main:49] running num:062 case，[98.41%]pass  
+[E 171110 12:00:49 main:55] running num:062 case，[98.41%]error  Traceback (most recent call last):
+      File "main.py", line 195, in callback
+        if _res[tmp[0]] == tmp[1]:
+    KeyError: 'mo'
+    
+[I 171110 12:00:49 main:49] running num:063 case，[100.0%]pass  
+[E 171110 12:00:49 main:55] running num:063 case，[100.0%]error  Traceback (most recent call last):
+      File "main.py", line 195, in callback
+        if _res[tmp[0]] == tmp[1]:
+    KeyError: 'mo'
+    
+[I 171110 12:00:50 main:49] running testCase.....SUCCESS!!!!!!
+[D 171110 17:47:58 main:46] ************************************************************
+[I 171110 17:47:58 main:49] data for testting is on....
+[I 171110 17:47:58 main:49] start run testCase.....
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[1.587%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[3.174%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[4.761%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[6.349%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[7.936%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[9.523%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[11.11%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[12.69%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[14.28%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[15.87%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[17.46%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[19.04%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[20.63%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[22.22%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[23.80%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[25.39%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[26.98%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[28.57%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[30.15%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[31.74%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[33.33%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[34.92%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[36.50%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[38.09%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[39.68%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[41.26%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[42.85%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[46.03%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[47.61%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[49.20%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[50.79%]pass  
+[W 171110 17:48:02 main:52] running num:0/mifi-uc/rest/login/registerOrLogin ，[52.38%]fail  201!=200
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[53.96%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[55.55%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[57.14%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[58.73%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[60.31%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[61.90%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[63.49%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[65.07%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[66.66%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[68.25%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[69.84%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[71.42%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[73.01%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[74.60%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[76.19%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[77.77%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[79.36%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[80.95%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[82.53%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[84.12%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[85.71%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[87.30%]pass  
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[88.88%]pass  
+[W 171110 17:48:02 main:52] running num:0/mifi-uc/rest/login/registerOrLogin ，[92.06%]fail  200!=257
+[W 171110 17:48:02 main:52] running num:0/mifi-uc/rest/login/registerOrLogin ，[93.65%]fail  200!=258
+[W 171110 17:48:02 main:52] running num:0/mifi-uc/rest/login/registerOrLogin ，[95.23%]fail  200!=259
+[W 171110 17:48:02 main:52] running num:0/mifi-uc/rest/login/registerOrLogin ，[96.82%]fail  200!=260
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[98.41%]pass  
+[E 171110 17:48:02 main:55] running num:0/mifi-uc/rest/login/registerOrLogin ，[98.41%]error  Traceback (most recent call last):
+      File "main.py", line 194, in callback
+        if _res[tmp[0]] == tmp[1]:
+    KeyError: 'mo'
+    
+[I 171110 17:48:02 main:49] running num:0/mifi-uc/rest/login/registerOrLogin ，[100.0%]pass  
+[E 171110 17:48:02 main:55] running num:0/mifi-uc/rest/login/registerOrLogin ，[100.0%]error  Traceback (most recent call last):
+      File "main.py", line 194, in callback
+        if _res[tmp[0]] == tmp[1]:
+    KeyError: 'mo'
+    
+[I 171110 17:48:03 main:49] running testCase.....SUCCESS!!!!!!
+[D 171113 08:57:55 main:46] ************************************************************
+[I 171113 08:57:55 main:49] data for testting is on....
+[I 171113 08:57:55 main:49] start run testCase.....
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[1.587%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[3.174%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[4.761%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[6.349%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[7.936%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[9.523%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[11.11%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[12.69%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[14.28%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[15.87%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[17.46%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[19.04%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[20.63%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[22.22%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[23.80%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[25.39%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[26.98%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[28.57%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[30.15%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[31.74%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[33.33%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[34.92%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[36.50%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[38.09%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[39.68%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[41.26%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[42.85%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[46.03%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[47.61%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[49.20%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[50.79%]pass  
+[W 171113 08:58:02 main:52] running num:  意见反馈接口  ，[52.38%]fail  201!=200
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[53.96%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[55.55%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[57.14%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[58.73%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[60.31%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[61.90%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[63.49%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[65.07%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[66.66%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[68.25%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[69.84%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[71.42%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[73.01%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[74.60%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[76.19%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[77.77%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[79.36%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[80.95%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[82.53%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[84.12%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[85.71%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[87.30%]pass  
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[88.88%]pass  
+[W 171113 08:58:02 main:52] running num:  意见反馈接口  ，[92.06%]fail  200!=257
+[W 171113 08:58:02 main:52] running num:  意见反馈接口  ，[93.65%]fail  200!=258
+[W 171113 08:58:02 main:52] running num:  意见反馈接口  ，[95.23%]fail  200!=259
+[W 171113 08:58:02 main:52] running num:  意见反馈接口  ，[96.82%]fail  200!=260
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[98.41%]pass  
+[E 171113 08:58:02 main:55] running num:  意见反馈接口  ，[98.41%]error  Traceback (most recent call last):
+      File "main.py", line 194, in callback
+        if _res[tmp[0]] == tmp[1]:
+    KeyError: 'mo'
+    
+[I 171113 08:58:02 main:49] running num:  意见反馈接口  ，[100.0%]pass  
+[E 171113 08:58:02 main:55] running num:  意见反馈接口  ，[100.0%]error  Traceback (most recent call last):
+      File "main.py", line 194, in callback
+        if _res[tmp[0]] == tmp[1]:
+    KeyError: 'mo'
+    
+[I 171113 08:58:03 main:49] running testCase.....SUCCESS!!!!!!
+[D 171113 08:58:21 main:46] ************************************************************
+[I 171113 08:58:21 main:49] data for testting is on....
+[I 171113 08:58:21 main:49] start run testCase.....
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[1.587%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[3.174%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[4.761%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[6.349%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[7.936%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[9.523%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[11.11%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[12.69%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[14.28%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[15.87%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[17.46%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[19.04%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[20.63%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[22.22%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[23.80%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[25.39%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[26.98%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[28.57%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[30.15%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[31.74%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[33.33%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[34.92%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[36.50%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[38.09%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[39.68%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[41.26%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[42.85%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[46.03%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[47.61%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[49.20%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[50.79%]pass  
+[W 171113 08:58:24 main:52] running num:  意见反馈接口  ，[52.38%]fail  201!=200
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[53.96%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[55.55%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[57.14%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[58.73%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[60.31%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[61.90%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[63.49%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[65.07%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[66.66%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[68.25%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[69.84%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[71.42%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[73.01%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[74.60%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[76.19%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[77.77%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[79.36%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[80.95%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[82.53%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[84.12%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[85.71%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[87.30%]pass  
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[88.88%]pass  
+[W 171113 08:58:24 main:52] running num:  意见反馈接口  ，[92.06%]fail  200!=257
+[W 171113 08:58:24 main:52] running num:  意见反馈接口  ，[93.65%]fail  200!=258
+[W 171113 08:58:24 main:52] running num:  意见反馈接口  ，[95.23%]fail  200!=259
+[W 171113 08:58:24 main:52] running num:  意见反馈接口  ，[96.82%]fail  200!=260
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[98.41%]pass  
+[E 171113 08:58:24 main:55] running num:  意见反馈接口  ，[98.41%]error  Traceback (most recent call last):
+      File "main.py", line 194, in callback
+        if _res[tmp[0]] == tmp[1]:
+    KeyError: 'mo'
+    
+[I 171113 08:58:24 main:49] running num:  意见反馈接口  ，[100.0%]pass  
+[E 171113 08:58:24 main:55] running num:  意见反馈接口  ，[100.0%]error  Traceback (most recent call last):
+      File "main.py", line 194, in callback
+        if _res[tmp[0]] == tmp[1]:
+    KeyError: 'mo'
+    
+[I 171113 08:58:25 main:49] running testCase.....SUCCESS!!!!!!
+[D 171113 08:59:13 main:46] ************************************************************
+[I 171113 08:59:13 main:49] data for testting is on....
+[I 171113 08:59:13 main:49] start run testCase.....
+[I 171113 08:59:16 main:49] running num:  意见反馈接口  ，[1.587%]pass  
+[I 171113 08:59:17 main:49] running num:  意见反馈接口  ，[3.174%]pass  
+[I 171113 08:59:18 main:49] running num:  意见反馈接口  ，[4.761%]pass  
+[I 171113 08:59:19 main:49] running num:  意见反馈接口  ，[6.349%]pass  
+[I 171113 08:59:20 main:49] running num:  意见反馈接口  ，[7.936%]pass  
+[I 171113 08:59:21 main:49] running num:  意见反馈接口  ，[9.523%]pass  
+[I 171113 08:59:22 main:49] running num:  意见反馈接口  ，[11.11%]pass  
+[I 171113 08:59:23 main:49] running num:  意见反馈接口  ，[12.69%]pass  
+[I 171113 08:59:24 main:49] running num:  意见反馈接口  ，[14.28%]pass  
+[I 171113 08:59:25 main:49] running num:  意见反馈接口  ，[15.87%]pass  
+[I 171113 08:59:26 main:49] running num:  意见反馈接口  ，[17.46%]pass  
+[I 171113 08:59:27 main:49] running num:  意见反馈接口  ，[19.04%]pass  
+[I 171113 08:59:28 main:49] running num:  意见反馈接口  ，[20.63%]pass  
+[I 171113 08:59:29 main:49] running num:  意见反馈接口  ，[22.22%]pass  
+[I 171113 08:59:30 main:49] running num:  意见反馈接口  ，[23.80%]pass  
+[I 171113 08:59:31 main:49] running num:  意见反馈接口  ，[25.39%]pass  
+[I 171113 08:59:32 main:49] running num:  意见反馈接口  ，[26.98%]pass  
+[I 171113 08:59:33 main:49] running num:  意见反馈接口  ，[28.57%]pass  
+[I 171113 08:59:34 main:49] running num:  意见反馈接口  ，[30.15%]pass  
+[I 171113 08:59:35 main:49] running num:  意见反馈接口  ，[31.74%]pass  
+[I 171113 08:59:36 main:49] running num:  意见反馈接口  ，[33.33%]pass  
+[I 171113 08:59:37 main:49] running num:  意见反馈接口  ，[34.92%]pass  
+[I 171113 08:59:38 main:49] running num:  意见反馈接口  ，[36.50%]pass  
+[I 171113 08:59:39 main:49] running num:  意见反馈接口  ，[38.09%]pass  
+[I 171113 08:59:40 main:49] running num:  意见反馈接口  ，[39.68%]pass  
+[I 171113 08:59:41 main:49] running num:  意见反馈接口  ，[41.26%]pass  
+[I 171113 08:59:42 main:49] running num:  意见反馈接口  ，[42.85%]pass  
+[I 171113 08:59:44 main:49] running num:  意见反馈接口  ，[46.03%]pass  
+[I 171113 08:59:45 main:49] running num:  意见反馈接口  ，[47.61%]pass  
+[D 171113 09:00:16 main:46] ************************************************************
+[I 171113 09:00:16 main:49] data for testting is on....
+[I 171113 09:00:16 main:49] start run testCase.....
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[1.587%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[3.174%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[4.761%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[6.349%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[7.936%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[9.523%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[11.11%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[12.69%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[14.28%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[15.87%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[17.46%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[19.04%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[20.63%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[22.22%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[23.80%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[25.39%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[26.98%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[28.57%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[30.15%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[31.74%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[33.33%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[34.92%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[36.50%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[38.09%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[39.68%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[41.26%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[42.85%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[46.03%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[47.61%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[49.20%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[50.79%]pass  
+[W 171113 09:00:20 main:52] running[  意见反馈接口 ] ，[52.38%]fail  201!=200
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[53.96%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[55.55%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[57.14%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[58.73%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[60.31%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[61.90%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[63.49%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[65.07%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[66.66%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[68.25%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[69.84%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[71.42%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[73.01%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[74.60%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[76.19%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[77.77%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[79.36%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[80.95%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[82.53%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[84.12%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[85.71%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[87.30%]pass  
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[88.88%]pass  
+[W 171113 09:00:20 main:52] running[  意见反馈接口 ] ，[92.06%]fail  200!=257
+[W 171113 09:00:20 main:52] running[  意见反馈接口 ] ，[93.65%]fail  200!=258
+[W 171113 09:00:20 main:52] running[  意见反馈接口 ] ，[95.23%]fail  200!=259
+[W 171113 09:00:20 main:52] running[  意见反馈接口 ] ，[96.82%]fail  200!=260
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[98.41%]pass  
+[E 171113 09:00:20 main:55] running[  意见反馈接口 ] ，[98.41%]error  Traceback (most recent call last):
+      File "main.py", line 194, in callback
+        if _res[tmp[0]] == tmp[1]:
+    KeyError: 'mo'
+    
+[I 171113 09:00:20 main:49] running[  意见反馈接口 ] ，[100.0%]pass  
+[E 171113 09:00:20 main:55] running[  意见反馈接口 ] ，[100.0%]error  Traceback (most recent call last):
+      File "main.py", line 194, in callback
+        if _res[tmp[0]] == tmp[1]:
+    KeyError: 'mo'
+    
+[I 171113 09:00:21 main:49] running testCase.....SUCCESS!!!!!!
+[D 171113 09:48:46 main:59] ************************************************************
+[I 171113 09:48:46 main:62] data for testting is on....
+[I 171113 09:48:46 main:62] start run testCase.....
+[D 171113 10:03:21 main:48] ************************************************************
+[I 171113 10:03:21 main:51] data for testting is on....
+[I 171113 10:03:21 main:51] start run testCase.....
+[I 171113 10:03:26 main:51] running testCase.....SUCCESS!!!!!!
+[D 171113 10:04:49 main:48] ************************************************************
+[I 171113 10:04:49 main:51] data for testting is on....
+[I 171113 10:04:49 main:51] start run testCase.....
+[I 171113 10:04:56 main:51] running testCase.....SUCCESS!!!!!!
+[D 171113 10:06:19 main:48] ************************************************************
+[I 171113 10:06:19 main:51] data for testting is on....
+[I 171113 10:06:19 main:51] start run testCase.....
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[1.587%][time:0.080]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[3.174%][time:0.064]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[4.761%][time:0.057]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[6.349%][time:0.065]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[7.936%][time:0.055]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[9.523%][time:0.059]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[11.11%][time:0.055]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[12.69%][time:0.059]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[14.28%][time:0.061]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[15.87%][time:0.053]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[17.46%][time:0.056]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[19.04%][time:0.059]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[20.63%][time:0.058]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[22.22%][time:0.055]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[23.80%][time:0.055]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[25.39%][time:0.111]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[26.98%][time:0.065]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[28.57%][time:0.101]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[30.15%][time:0.054]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[31.74%][time:0.056]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[33.33%][time:0.060]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[34.92%][time:0.063]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[36.50%][time:0.104]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[38.09%][time:0.102]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[39.68%][time:0.057]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[41.26%][time:0.060]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[42.85%][time:0.055]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[46.03%][time:0.066]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[47.61%][time:0.062]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[49.20%][time:0.065]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[50.79%][time:0.058]pass  
+[W 171113 10:06:23 main:54] running[意见反馈接口] ，[52.38%][time:0.050]fail  201!=200
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[53.96%][time:0.056]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[55.55%][time:0.058]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[57.14%][time:0.054]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[58.73%][time:0.059]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[60.31%][time:0.055]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[61.90%][time:0.055]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[63.49%][time:0.054]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[65.07%][time:0.058]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[66.66%][time:0.059]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[68.25%][time:0.058]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[69.84%][time:0.065]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[71.42%][time:0.052]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[73.01%][time:0.056]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[74.60%][time:0.055]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[76.19%][time:0.065]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[77.77%][time:0.060]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[79.36%][time:0.061]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[80.95%][time:0.060]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[82.53%][time:0.060]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[84.12%][time:0.059]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[85.71%][time:0.055]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[87.30%][time:0.070]pass  
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[88.88%][time:0.063]pass  
+[W 171113 10:06:23 main:54] running[意见反馈接口] ，[92.06%][time:0.057]fail  200!=257
+[W 171113 10:06:23 main:54] running[意见反馈接口] ，[93.65%][time:0.062]fail  200!=258
+[W 171113 10:06:23 main:54] running[意见反馈接口] ，[95.23%][time:0.057]fail  200!=259
+[W 171113 10:06:23 main:54] running[意见反馈接口] ，[96.82%][time:0.056]fail  200!=260
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[98.41%][time:0.057]pass  
+[E 171113 10:06:23 main:57] running[意见反馈接口] ，[98.41%][time:0.057]error  Traceback (most recent call last):
+      File "main.py", line 208, in callback
+        if _res[tmp[0]] == tmp[1]:
+    KeyError: 'mo'
+    
+[I 171113 10:06:23 main:51] running[意见反馈接口] ，[100.0%][time:0.058]pass  
+[E 171113 10:06:23 main:57] running[意见反馈接口] ，[100.0%][time:0.058]error  Traceback (most recent call last):
+      File "main.py", line 208, in callback
+        if _res[tmp[0]] == tmp[1]:
+    KeyError: 'mo'
+    
+[I 171113 10:06:24 main:51] running testCase.....SUCCESS!!!!!!
+[D 171113 10:09:19 main:48] ************************************************************
+[I 171113 10:09:19 main:51] data for testting is on....
+[I 171113 10:09:19 main:51] start run testCase.....
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.074]-[1.587%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.057]-[3.174%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.057]-[4.761%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.059]-[6.349%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.055]-[7.936%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.058]-[9.523%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.053]-[11.11%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.052]-[12.69%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.051]-[14.28%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.063]-[15.87%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.056]-[17.46%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.062]-[19.04%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.066]-[20.63%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:1.261]-[22.22%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.055]-[23.80%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.060]-[25.39%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.061]-[26.98%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.062]-[28.57%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.064]-[30.15%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.060]-[31.74%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.059]-[33.33%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.060]-[34.92%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.060]-[36.50%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.060]-[38.09%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.056]-[39.68%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.058]-[41.26%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.053]-[42.85%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.052]-[46.03%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.060]-[47.61%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.055]-[49.20%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.057]-[50.79%]pass  
+[W 171113 10:09:23 main:54] running-[意见反馈接口]-[time:0.045]-[52.38%]fail  201!=200
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.060]-[53.96%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.059]-[55.55%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.053]-[57.14%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.061]-[58.73%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.058]-[60.31%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.060]-[61.90%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.060]-[63.49%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.064]-[65.07%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.062]-[66.66%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.063]-[68.25%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.054]-[69.84%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.059]-[71.42%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.059]-[73.01%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.068]-[74.60%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.059]-[76.19%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.059]-[77.77%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.054]-[79.36%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.061]-[80.95%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.056]-[82.53%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.059]-[84.12%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.055]-[85.71%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.062]-[87.30%]pass  
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.060]-[88.88%]pass  
+[W 171113 10:09:23 main:54] running-[意见反馈接口]-[time:0.059]-[92.06%]fail  200!=257
+[W 171113 10:09:23 main:54] running-[意见反馈接口]-[time:0.059]-[93.65%]fail  200!=258
+[W 171113 10:09:23 main:54] running-[意见反馈接口]-[time:0.056]-[95.23%]fail  200!=259
+[W 171113 10:09:23 main:54] running-[意见反馈接口]-[time:0.056]-[96.82%]fail  200!=260
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.067]-[98.41%]pass  
+[E 171113 10:09:23 main:57] running-[意见反馈接口]-[time:0.067]-[98.41%]error  Traceback (most recent call last):
+      File "main.py", line 208, in callback
+        if _res[tmp[0]] == tmp[1]:
+    KeyError: 'mo'
+    
+[I 171113 10:09:23 main:51] running-[意见反馈接口]-[time:0.059]-[100.0%]pass  
+[E 171113 10:09:23 main:57] running-[意见反馈接口]-[time:0.059]-[100.0%]error  Traceback (most recent call last):
+      File "main.py", line 208, in callback
+        if _res[tmp[0]] == tmp[1]:
+    KeyError: 'mo'
+    
+[I 171113 10:09:24 main:51] running testCase.....SUCCESS!!!!!!
+[D 171113 10:10:48 main:48] ************************************************************
+[I 171113 10:10:48 main:51] data for testting is on....
+[I 171113 10:10:48 main:51] start run testCase.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:48 main:51] formate testCase意见反馈接口.....
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:4.115]-[1.587%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.056]-[3.174%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.053]-[4.761%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.061]-[6.349%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.069]-[7.936%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.059]-[9.523%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.064]-[11.11%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.059]-[12.69%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.061]-[14.28%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.053]-[15.87%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.060]-[17.46%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.067]-[19.04%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.063]-[20.63%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.056]-[22.22%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.058]-[23.80%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.059]-[25.39%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.060]-[26.98%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.069]-[28.57%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.062]-[30.15%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.063]-[31.74%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.058]-[33.33%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.064]-[34.92%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.056]-[36.50%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.055]-[38.09%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.057]-[39.68%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.054]-[41.26%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.054]-[42.85%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.054]-[46.03%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.057]-[47.61%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.057]-[49.20%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.059]-[50.79%]pass  
+[W 171113 10:10:55 main:54] running-[意见反馈接口]-[time:0.046]-[52.38%]fail  201!=200
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.058]-[53.96%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.055]-[55.55%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.054]-[57.14%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.058]-[58.73%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.057]-[60.31%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.059]-[61.90%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.057]-[63.49%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.055]-[65.07%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.054]-[66.66%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.057]-[68.25%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.055]-[69.84%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.057]-[71.42%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.056]-[73.01%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.054]-[74.60%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.062]-[76.19%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.059]-[77.77%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.061]-[79.36%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.055]-[80.95%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.059]-[82.53%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.056]-[84.12%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.057]-[85.71%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.064]-[87.30%]pass  
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.056]-[88.88%]pass  
+[W 171113 10:10:55 main:54] running-[意见反馈接口]-[time:0.058]-[92.06%]fail  200!=257
+[W 171113 10:10:55 main:54] running-[意见反馈接口]-[time:0.060]-[93.65%]fail  200!=258
+[W 171113 10:10:55 main:54] running-[意见反馈接口]-[time:0.059]-[95.23%]fail  200!=259
+[W 171113 10:10:55 main:54] running-[意见反馈接口]-[time:0.051]-[96.82%]fail  200!=260
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.062]-[98.41%]pass  
+[E 171113 10:10:55 main:57] running-[意见反馈接口]-[time:0.062]-[98.41%]error  Traceback (most recent call last):
+      File "main.py", line 208, in callback
+        if _res[tmp[0]] == tmp[1]:
+    KeyError: 'mo'
+    
+[I 171113 10:10:55 main:51] running-[意见反馈接口]-[time:0.059]-[100.0%]pass  
+[E 171113 10:10:55 main:57] running-[意见反馈接口]-[time:0.059]-[100.0%]error  Traceback (most recent call last):
+      File "main.py", line 208, in callback
+        if _res[tmp[0]] == tmp[1]:
+    KeyError: 'mo'
+    
+[I 171113 10:10:56 main:51] running testCase.....SUCCESS!!!!!!
