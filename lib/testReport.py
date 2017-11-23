@@ -100,6 +100,8 @@ class myResultForEmail( object ):
         
         return _div2
     
+    
+    
     def _setTable(self, body):
         '''
 
